@@ -9,7 +9,7 @@ layout: default
         </button>
     </div>
     <div class="bio">
-        Documenting the care and feeding of production software systems.<a href="{{ site.baseurl }}/about"> About me</a>
+        Documenting the care and feeding of production software systems.<a href="{{ site.url }}/about"> About me</a>
         </p>
     </div>
 </section>
@@ -34,7 +34,7 @@ layout: default
     <ul>
         {% for post in site.posts %}
         <li>
-            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+            <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
             <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
         </li>
         {% endfor %}
