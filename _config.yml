@@ -16,9 +16,9 @@ author:
   email: mail@broadmin.com # email adress
 
 # URL settings
-url: "https://broadmin.com" #
-baseurl: "/" # leave blank if not wishd
-permalink: "https://broadmin.com"
+url: "https://broadmin.github.io"
+baseurl: "" # leave blank if not wish
+permalink: "https://broadmin.github.io"
 permalink: pretty 
 
 markdown: kramdown
