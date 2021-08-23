@@ -5,7 +5,7 @@ description: >-
 googlewebfonts: Fira+Code:wght@400;500;700
 lang: en-US
 timezone: Asia/Jakarta
-repo: https://github.com/broadmin/br_blog # site repo [optional]
+repo: https://github.com/broadmin/broadmin.github.io # site repo [optional]
 data-theme: dark # default theme "dark" | "light"
 
 author:
